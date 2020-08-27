@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #800000;
+  text-decoration: none;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+.bigimg img {
+  margin: 15px 2px;
+  width: 439px;
+  border: 2px solid #b9b1bf;
+}
+
+.pictures {
+  margin: 10px auto;
+  width: 900px;
+}
+
+.pictures li {
+  display: inline;
+  margin: 3px;
+}
+
+#logo {
+  margin: 0 auto 30px;
+  width: 200px;
+}
