@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.my-picture {
+  display: inline;
+}
+
+.my-picture img {
+  height: 60px;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: top;
+}
