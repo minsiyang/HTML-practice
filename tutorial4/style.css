@@ -9,6 +9,8 @@ header {
   border-bottom: 1px solid #e7e6e6;
   padding-top: 14px;
   text-align: center;
+  position: fixed;
+  width: 100%;
 }
 
 .portrait, .title {
@@ -86,3 +88,20 @@ header {
   width: 73%;
 }
 
+footer {
+  height: 60px;
+  padding-top: 20px;
+  background-color: #3D5167;
+  border-top: 1px solid #eeeeee;
+  width: 100%;
+}
+
+footer p {
+  color: #b0afc0;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+footer a {
+  color: #b0afc0;
+}
