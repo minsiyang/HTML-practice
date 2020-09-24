@@ -71,10 +71,14 @@ a.btn {
   text-decoration: none;
   background-color: #9a95d8;
   border-radius: 9px;
+  display: inline-block;
 }
 
 a.btn:hover {
   box-shadow: 2px 2px 4px 2px #4e4c80 inset;
+  transform: rotate(180deg);
+  transition-duration: 1s;
+  transition-delay: 0.5s;
 }
 
 p.about {
@@ -98,5 +102,5 @@ p:not(.about) {
 }
 
 .achievements li:nth-child(odd) {
-  background-color: rgba(176, 175, 192, 0.2);
+  background-color: rgba(176, 175, 192, 0.3);
 }
