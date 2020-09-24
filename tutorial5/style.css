@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 0;
   border-top: 5px solid #4c4066;
-  background: url('../images/background-left.jpg') right top no-repeat,
-              url('../images/background-right.jpg') left no-repeat;
+  background: url('../images/background-right.jpg') right top no-repeat,
+              url('../images/background-left.jpg') left no-repeat;
   background-size: 420px auto, auto 900px;
   background-attachment: fixed, fixed;
 }
@@ -19,6 +19,7 @@ body {
 h1 {
   margin: 15px 0;
   font-size: 85px;
+  padding-left: 20px;
   color: #6f6c7c;
   text-shadow: 1px 1px 5px #72629a;
 }
@@ -84,21 +85,29 @@ a.btn:hover {
 p.about {
   font-size: 0.9em;
   font-style: italic;
+  text-align: justify;
+  padding: 0 20px;
 }
 
 p:not(.about) {
   line-height: 1.3em;
+  text-align: justify;
+  padding: 5px 15px;
+}
+
+h2 {
+  text-align: center;
 }
 
 .achievements ul {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .achievements li {
-  padding: 10px 40px;
+  padding: 10px 50px;
   font-size: 0.75em;
+  width: 70%;
 }
 
 .achievements li:nth-child(odd) {
