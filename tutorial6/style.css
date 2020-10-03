@@ -37,12 +37,17 @@ nav a:hover {
   border-radius: 25px 25px 0 0;
 }
 
-h1 {
+.title {
   color: #363434;
   font-size: 20px;
 }
 
-.about p {
+h1 {
+  color: #363434;
+  font-size: 18px;
+}
+
+#paragraph p {
   font-size: 15px;
   color: #363434;
   width: 70%;
@@ -52,4 +57,34 @@ h1 {
 
 #paragraph {
   padding: 10px;
+}
+
+#pictures {
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+#pictures img {
+  width: 235px;
+  height: 224px;
+}
+
+#pictures .image {
+  margin-top: 20px;
+  padding: 8px;
+  width: 240px;
+  display: inline-block;
+}
+
+#pictures p {
+  text-align: center;
+  margin: 0;
+  padding: 5px 0;
+  font-style: italic;
+  font-size: 12px;
+  border-bottom: 1px dotted #2E8B57 ;
+}
+
+.flip-image:hover {
+  transform: rotate(30deg);
 }
